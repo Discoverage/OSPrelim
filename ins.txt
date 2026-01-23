@@ -1,0 +1,56 @@
+using c++ code prelim.cpp
+
+rr, sjf, srtf, hiwalay na func rtq sa rr
+have a calculated time in rr, where it will calculate the mean, median to compute the time Quantum itself
+
+
+na kung saan naglalaman ito ng code
+algorithm
+
+1. round robin
+2. shortest job first
+3. shortest remaining time first
+4. recommended time quantum (where it will calculate the mean, median to compute the time Quantum itself, put it at the very top)
+
+MAKE SURE THAT THE VARIAbles are named like (AT, BT etc.)
+
+make sure na ito ay parang ieencapsulate sa isang lalgyanan na ang pangalan ay process
+
+have a calculate time in round robin. icacalculate nya muna ung median or mean ng burst time para makapagcalculate ng quantum time
+
+u need to display the table values
+
+table looks (pid, arrival, burst, completion, turnaround, waiting)
+
+under the table
+average turn around time and average waiting time
+
+
+u dont need to ask
+nakainititate na dapat sya sa main
+
+
+(dapat magakakasunod ung display ng table na ito pagtapos ng main)
+recommeneded time quantum
+round robin
+shortest job first
+shortest remaining time first
+main
+
+
+ARRIVAL TIME:
+4, 2, 3, 6, 1, 5, 8, 7,
+
+BURST TIME:
+53, 43, 18, 16, 44, 73, 99, 27
+
+ALL OF THAT WILL HAVE IN THE ALGORITHM
+
+
+THE OUTPUT WILL DISPLAY:
+1. round robin
+2. shortest job first
+3. shortest remaining time first
+
+
+use abbreviations like pid bt, tat on output, and fix the completion time
